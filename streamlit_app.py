@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
+st.text('This webapp is designed to help researchers and scientists obtain Ramachandran Plot through the protein database id (PDB id)')
+
 st.title("Ramachandran Plot Generator")
 
 st.markdown('''
@@ -32,7 +34,7 @@ if PDB_id:
 
 st.markdown("## Developed By: ")
 st.markdown("# Mohit Poudel")
-st.markdown("### Research Intern at the Centre for Biotechnology, Agriculture and Forestry University")
+st.markdown("### Research Intern at the Centre for Biotechnology, Agriculture and Forestry University,Nepal")
 st.markdown("#### Please email for feedback and criticism to: poudelmohit59@gmail.com ")
-st.markdown("##### Know more about the developer !! [link](https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel)")
+st.markdown("##### [Know more about the developer !!](https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel)")
 
