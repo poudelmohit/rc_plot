@@ -3,6 +3,8 @@ from RamachanDraw import fetch, phi_psi, plot
 import matplotlib.pyplot as plt
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_page_config(page_title="Ramachandran Plot Generator", page_icon=":heart:")
+
 
 st.text('This webapp is designed to help researchers and scientists obtain Ramachandran Plot through the protein database id (PDB id)')
 
@@ -43,6 +45,8 @@ with col1:
 with col2:
     st.title("Mohit Poudel")
     st.write(""" Bioinformatics & population genetics enthusiast, self-taught python programmer """)
+    st.markdown(" ### Agriculture and Forestry Univeresity")
+    st.markdown(" #### Chitwan, Nepal")
 
 # st.markdown("# Mohit Poudel")
 # st.markdown("### Research Intern at the Centre for Biotechnology, Agriculture and Forestry University,Nepal")
