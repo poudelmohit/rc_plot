@@ -45,8 +45,8 @@ with col1:
 with col2:
     st.title("Mohit Poudel")
     st.write(""" Bioinformatics & population genetics enthusiast, self-taught python programmer """)
-    st.markdown(" ### Agriculture and Forestry Univeresity")
-    st.markdown(" #### Chitwan, Nepal")
+    st.write(" ### Agriculture and Forestry University")
+    st.write(" #### Chitwan, Nepal")
 
 # st.markdown("# Mohit Poudel")
 # st.markdown("### Research Intern at the Centre for Biotechnology, Agriculture and Forestry University,Nepal")
