@@ -41,7 +41,7 @@ with col1:
     st.image("https://mohit254-portfolio-cv-t4bwqw.streamlit.app/~/+/media/511fd1351113b1b2f0acc6c65d463c50c4155c521ee6fce285af2566.png", width=230)
 
 with col2:
-    st.title("Mohit Poudel)
+    st.title("Mohit Poudel")
     st.write(""" Bioinformatics & population genetics enthusiast, self-taught python programmer """)
 
 # st.markdown("# Mohit Poudel")
