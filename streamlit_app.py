@@ -30,11 +30,22 @@ if PDB_id:
   plot(pdb_file)
 
   # Display the plot in the Streamlit app using st.pyplot
+  # st.markkdown("##### Ramachandran PLot of given Protein: ")
   st.pyplot()
-
+  st.write("[Special Thanks to Python Project RamachanDraw]('https://pypi.org/project/RamachanDraw/')") 
+  
+ # --- HERO SECTION ---
 st.markdown("## Developed By: ")
-st.markdown("# Mohit Poudel")
-st.markdown("### Research Intern at the Centre for Biotechnology, Agriculture and Forestry University,Nepal")
-st.markdown("#### Please email for feedback and criticism to: poudelmohit59@gmail.com ")
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.image("https://mohit254-portfolio-cv-t4bwqw.streamlit.app/~/+/media/511fd1351113b1b2f0acc6c65d463c50c4155c521ee6fce285af2566.png", width=230)
+
+with col2:
+    st.title("Mohit Poudel)
+    st.write(""" Bioinformatics & population genetics enthusiast, self-taught python programmer """)
+
+# st.markdown("# Mohit Poudel")
+# st.markdown("### Research Intern at the Centre for Biotechnology, Agriculture and Forestry University,Nepal")
+# st.markdown("#### Please email for feedback and criticism to: poudelmohit59@gmail.com ")
 st.markdown("##### [Know more about the developer !!](https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel)")
 
